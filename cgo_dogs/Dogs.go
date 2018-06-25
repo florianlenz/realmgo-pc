@@ -1,4 +1,4 @@
-package main
+package poc
 
 //#cgo CFLAGS: -x objective-c
 //#cgo LDFLAGS: -framework Foundation
@@ -6,6 +6,6 @@ package main
 //#include "Dogs.h"
 import "C"
 
-func main() {
+func CountDogs()  {
 	C.CountDogs()
 }
